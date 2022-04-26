@@ -150,9 +150,6 @@ List.findOne({name:customListName},function(err,foundList){
 
 });
 
-app.get("/about", function(req, res) {
-  res.render("about");
-});
 
 
 let port = process.env.PORT;
